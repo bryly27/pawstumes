@@ -1,7 +1,8 @@
 <html>
 <head>
-	<title>Pawstumes</title>
+	<title>Pawstumes | Pets in Costumes</title>
 <link rel="shortcut icon" href="/assets/img/favicon.png" />
+<meta name='description' content='Visit our site to find a friendly photo of a pet in a costume. Visit daily to see new added photos'>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
