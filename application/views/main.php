@@ -26,5 +26,7 @@
 <?php	} ?>
 	</div>
 
+	<a href="/pawstumes/admin_login">admin</a>
+
 </body>
 </html>
