@@ -23,7 +23,7 @@
 			foreach($pets as $pet)
 			{ ?>
 				<div class='pets'>
-						<img src='<?= $pet['link']?>'>
+						<img src='<?= $pet['link']?>' alt='<?= $pet['description'] ?>'>
 						<p><?= date("F d, Y", strtotime($pet['created_at'])) ?></p>
 				</div>
 <?php	} ?>

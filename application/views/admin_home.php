@@ -22,6 +22,7 @@
 	<div class='pet_photos'>
 		<form action='/pawstumes/add_photo' method='post'>
 			<input type='text' name='link' placeholder='Add a link'>
+			<input type='text' name='description' placeholder='Add a quick description'>
 			<input type='submit' value='Add'>
 			<input type='hidden' name='action' value='add'>
 		</form>
