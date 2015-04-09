@@ -5,7 +5,7 @@ class paw extends CI_Model {
 
     function get_all()
     {
-        return $this->db->query("SELECT id, link, created_at from photos ORDER BY created_at DESC")->result_array();
+        return $this->db->query("SELECT id, link, created_at, description from photos ORDER BY created_at DESC")->result_array();
     }
 
     function get_user($username)
