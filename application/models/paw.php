@@ -15,7 +15,7 @@ class paw extends CI_Model {
 
     function add_pet($link)
     {
-        $this->db->query("INSERT INTO photos (link, created_at, updated_at) VALUES (?, NOW(), NOW())", $link);
+        $this->db->query("INSERT INTO photos (link, created_at, updated_at, description) VALUES (?, NOW(), NOW(), ?)", array($link['link'], $link['description']));
     }
 
     function delete($id)
