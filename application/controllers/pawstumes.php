@@ -94,6 +94,21 @@ class Pawstumes extends CI_Controller {
 		}
 	}
 
+	public function edit()
+	{
+		if($this->input->post('action') == 'edit')
+		{
+			$this->load->model('Paw');
+			$this->Paw->edit($this->input->post());
+			redirect('/pawstumes/admin_home');
+		}
+		else
+		{
+			$this->session->sess_destroy();
+			redirect('/');
+		}
+	}
+
 	public function logout()
 	{
 		$this->session->sess_destroy();

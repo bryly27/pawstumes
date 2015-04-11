@@ -23,4 +23,9 @@ class paw extends CI_Model {
         $this->db->query("DELETE FROM photos WHERE id = ?", $id);
     }
 
+    function edit($info)
+    {
+        $this->db->query("UPDATE photos SET description = ? WHERE id = ?", array($info['description'], $info['id']));
+    }
+
 }

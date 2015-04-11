@@ -37,6 +37,13 @@
 					<input type='submit' value='Delete'>
 					<input type='hidden' name='action' value='delete'>
 				</form>
+				<form action='/pawstumes/edit' method='post'>
+					<h4>Edit top photo description: </h4>
+					<input type='text' name='description' value='<?= $pet['description'] ?>'>
+					<input type='submit' value='Submit'>
+					<input type='hidden' name='action' value='edit'>
+					<input type='hidden' name='id' value='<?= $pet['id'] ?>'>
+				</form>
 <?php	} ?>
 	</div>
 
