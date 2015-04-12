@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Pawstumes | Pets in Costumes</title>
+	<title>Pets in Costumes</title>
 <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon"/>
 <meta name='description' content='Visit our site to find a friendly photo of a pet in a costume. Visit daily to see newly added photos. Pets in costume. Dogs and cats in costume.'>
 <meta charset="utf-8">
