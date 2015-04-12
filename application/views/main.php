@@ -2,7 +2,7 @@
 <head>
 	<title>Pawstumes | Pets in Costumes</title>
 <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon"/>
-<meta name='description' content='Visit our site to find a friendly photo of a pet in a costume. Visit daily to see new added photos'>
+<meta name='description' content='Visit our site to find a friendly photo of a pet in a costume. Visit daily to see newly added photos. Pets in costume. Dogs and cats in costume.'>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
