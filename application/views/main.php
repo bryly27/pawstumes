@@ -14,7 +14,7 @@
 <body>	
 	<div class='row'>
 		<div class='col-md-12 col-xs-12 header container'>
-			<h1>Pawstumes</h1>
+			<h1>Pawstumes | Pets in Costume</h1>
 		</div>
 	</div>
 	<div class='pet_photos'>
