@@ -5,7 +5,7 @@ class paw extends CI_Model {
 
     function get_all()
     {
-        return $this->db->query("SELECT id, link, created_at, description from photos ORDER BY created_at DESC")->result_array();
+        return $this->db->query("SELECT id, link, created_at, description, file_type from photos ORDER BY created_at DESC")->result_array();
     }
 
     function get_user($username)
@@ -15,7 +15,7 @@ class paw extends CI_Model {
 
     function add_pet($link)
     {
-        $this->db->query("INSERT INTO photos (link, created_at, updated_at, description) VALUES (?, NOW(), NOW(), ?)", array($link['link'], $link['description']));
+        $this->db->query("INSERT INTO photos (link, created_at, updated_at, description, file_type) VALUES (?, NOW(), NOW(), ?, ?)", array($link['link'], $link['description'], $link['file_type']));
     }
 
     function delete($id)

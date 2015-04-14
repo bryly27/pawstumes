@@ -65,7 +65,7 @@ class Pawstumes extends CI_Controller {
 		}
 	}
 
-	public function add_photo()
+	public function add_link()
 	{
 		if($this->session->userdata('log') == true)
 		{
