@@ -10,14 +10,6 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-</head>
-<body>	
-	<div class='row'>
-		<div class='col-md-12 col-xs-12 header container'>
-			<h1>Pawstumes</h1>
-		</div>
-	</div>
-
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- pawstumes_ad1 -->
 <ins class="adsbygoogle"
@@ -27,6 +19,14 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</head>
+<body>	
+	<div class='row'>
+		<div class='col-md-12 col-xs-12 header container'>
+			<h1>Pawstumes</h1>
+		</div>
+	</div>
+
 
 	<div class='pet_photos'>
 
