@@ -5,6 +5,8 @@
 <meta name='description' content='Visit our site to find a friendly photo of a pet in a costume. Visit daily to see newly added photos. Pets in costume. Dogs and cats in costume.'>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="pets, pets in costume, costume, pawstumes, pawstume">
+<meta name="author" content="Nend Media LLC">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
