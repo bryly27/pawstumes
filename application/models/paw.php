@@ -8,6 +8,12 @@ class paw extends CI_Model {
         return $this->db->query("SELECT id, link, created_at, description, file_type from photos ORDER BY created_at DESC")->result_array();
     }
 
+    function get_limit($num)
+    {
+        $limit = $num * 10 - 10;
+        return $this->db->query("SELECT id, link, created_at, description, file_type from photos ORDER BY created_at DESC LIMIT ?, 10", $limit)->result_array();
+    }
+
     function get_user($username)
     {
         return $this->db->query("SELECT username, password from users WHERE username = ?", $username)->row_array();

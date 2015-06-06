@@ -15,6 +15,14 @@ class Pawstumes extends CI_Controller {
 		$this->load->view('main', $array);
 	}
 
+	public function get_all($num)
+	{
+		$this->load->model('Paw');
+		$array['all'] = $this->Paw->get_all(); 
+		$array['pets'] = $this->Paw->get_limit($num);
+		$this->load->view('partials/results', $array);
+	}
+
 	public function admin_login()
 	{
 		$this->load->view('admin');

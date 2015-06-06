@@ -7,12 +7,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="pets, pets in costume, costume, pawstumes, pawstume">
 <meta name="author" content="Nend Media LLC">
+<!-- bootstrap and jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+<script type="text/javascript" src='assets/js/main.js'></script>
 </head>
 <body>	
 	<div class='row'>
@@ -32,26 +34,8 @@
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
 
-<?php  
-			foreach($pets as $pet)
-			{
+		<div id='results'></div>
 
-				if($pet['file_type'] == 'photo')
-				{ ?>
-					<div class='pets'>
-							<img src='<?= $pet['link']?>' alt='<?= $pet['description'] ?>'>
-							<p><?= date("F d, Y", strtotime($pet['created_at'])) ?></p>
-					</div>
-<?php		}
-				else
-				{ ?>
-					<div class='pets'>
-						<iframe width='50%' height="45%" src="<?= $pet['link'] ?>" frameborder="0" allowfullscreen alt='<?= $pet['description'] ?>'></iframe>
-						<p><?= date("F d, Y", strtotime($pet['created_at'])) ?></p>
-					</div>
-<?php		}
-			}
-?>
 	</div>
 
 
