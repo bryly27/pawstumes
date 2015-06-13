@@ -38,7 +38,16 @@
 
 	</div>
 
-
+<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+<!-- cosplaymademe_news -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6439372639315752"
+     data-ad-slot="5835257229"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 </body>
 
