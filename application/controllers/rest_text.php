@@ -2,9 +2,14 @@
 
 class rest_text extends CI_Controller {
 
-	public function index()
+	public function reserved()
 	{
 		$this->load->view('rest_text/reserved');
+	}
+
+	public function standBy()
+	{
+		$this->load->view('rest_text/standBy');
 	}
 
 	
